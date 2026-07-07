@@ -33,7 +33,7 @@ body {
 
 /* Map Section (Stretches full width) */
 .map-section {
-    padding: 60px 0px; 
+    padding: 60px 0; 
     width: 100%;
     display: flex;
     justify-content: center;

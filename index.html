@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Map and Columns Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="logo-container">
+            <img src="logo.png" alt="Website Logo" class="logo">
+        </div>
+        <h1>Page Title</h1>
+    </header>
+
+    <!-- Full-Width Map Section -->
+    <section class="map-section">
+        <div class="svg-wrapper">
+            <!-- Insert your raw SVG code or <object> here -->
+            <svg viewBox="0 0 1200 600" class="clickable-map">
+                <!-- Example clickable map elements -->
+                <a href="https://example.com" title="Region 1">
+                    <path d="M50,50 L550,50 L300,550 Z" fill="#0055a4"></path>
+                </a>
+                <a href="https://example.com" title="Region 2">
+                    <path d="M650,50 L1150,50 L900,550 Z" fill="#e15656"></path>
+                </a>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Columns Container -->
+    <section class="columns-container">
+        <!-- Column 1 -->
+        <div class="column">
+            <img src="image1.jpg" alt="Column 1 Image" class="col-image">
+            <h2>Column 1 Header</h2>
+            <ul class="col-links">
+                <li><a href="#">Link 1-A</a></li>
+                <li><a href="#">Link 1-B</a></li>
+                <li><a href="#">Link 1-C</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="column">
+            <img src="image2.jpg" alt="Column 2 Image" class="col-image">
+            <h2>Column 2 Header</h2>
+            <ul class="col-links">
+                <li><a href="#">Link 2-A</a></li>
+                <li><a href="#">Link 2-B</a></li>
+                <li><a href="#">Link 2-C</a></li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+</html>

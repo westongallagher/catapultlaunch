@@ -32,6 +32,14 @@ body {
 }
 
 /* Map Section (Stretches full width) */
+.map-title-section {
+    padding: 60px 100px; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
 .map-section {
     padding: 60px 0; 
     width: 100%;

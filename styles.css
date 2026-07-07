@@ -33,7 +33,7 @@ body {
 
 /* Map Section (Stretches full width) */
 .map-section {
-    padding: 60px 100px; 
+    padding: 60px 0px; 
     width: 100%;
     display: flex;
     justify-content: center;
@@ -41,6 +41,7 @@ body {
 }
 
 .svg-wrapper {
+    padding: 60px 100px; 
     width: 100%; 
 }
 

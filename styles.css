@@ -33,10 +33,11 @@ body {
 
 /* Map Section (Stretches full width) */
 .map-title-section {
-    padding: 60px 100px; 
+    padding: 60px 100px 0px 100px; 
     width: 100%;
     display: flex;
     justify-content: center;
+    text-align: center;
     background-color: #ffffff;
 }
 
